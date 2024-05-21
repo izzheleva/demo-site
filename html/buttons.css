@@ -1,0 +1,18 @@
+a.button, input[type="submit"], input[type="reset"] {
+    display: inline-block;
+    border: 1px solid #eee;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    font-family: priori-serif, serif;
+    color: #eee;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: inherit;
+}
+
+a.button:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+    color: rgba(6, 1, 75, 0.689);
+    background-color: #eee;
+    cursor: pointer;
+}
+

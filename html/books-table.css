@@ -1,0 +1,30 @@
+details {
+    
+    width: 100%;
+    border: 1px solid #eee;
+    color: #eee;
+}
+
+summary:hover {
+    color: rgba(6, 1, 75, 0.689);
+    ;
+    background-color: #eee;
+}
+
+summary {
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+}
+
+table {    
+    width: 100%;
+    border-spacing: 0;
+    grid-row: 2;
+    color: #E7E9EB;
+    padding: 0.5em 0.5em 0.5em;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(156, 154, 193, 0.689);
+    color: rgba(6, 1, 75, 0.689)
+}

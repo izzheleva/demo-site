@@ -1,0 +1,53 @@
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;    
+}
+
+  .req {
+    color: red;
+  }
+  input:focus:invalid {
+    background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50% rgb(255, 255, 255);
+    background-size: 25px;
+  }
+
+  input:required:focus:valid {
+    background: url("https://assets.digitalocean.com/labs/icons/hand-thumbs-up.svg") no-repeat 95% 50% lightgreen;
+    background-size: 25px;
+  }
+  
+  input:invalid {
+    border-color: red;
+    border-width: 3px;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: rgba(6, 1, 75, 0.689);
+    padding: 20px;
+    margin-bottom: 20px;    
+    z-index: 1;
+  }
+
+  label {
+    font-family: priori-serif, serif;
+    font-size: 1.5rem;
+  }
+  
+  .radio-label {
+    font-family: priori-serif, serif;
+    font-size: 1.2rem;
+  }
+
+  .hidden-field {
+    display: none;
+  }
+
+  input[type="radio"]:checked + label + .hidden-field {
+    display: block;
+  }

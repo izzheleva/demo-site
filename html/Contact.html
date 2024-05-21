@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title> This is my first website.</title>
+        <link rel="stylesheet" href="styles.css">    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    </head>
+    <body>
+        <nav class="navbar background grid" id="navbar">
+            <div class="logo">
+                <a href="./Home.html"><img src="./images/tplogo.png"></a>
+            </div>
+            
+            <label for="hamburger">&#9776</label>
+            <input type="checkbox" id="hamburger"/>
+            <ul class="nav-list" id="nav-list">                
+                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./Discworld.html">Discworld</a></li>
+                <li><a href="./Books.html">Books</a></li>
+                <li><a href="./Artists.html">Artists</a></li>
+                <li><a href="./Contact.html">Contact</a></li>
+            </ul>            
+        </nav>
+
+        <div class="terry-about grid">
+            <img class="backgroundImg" src="./images/4f553049-2780-42c6-8e80-5b0328e54f24.png"></img>
+            <h1>Contact</h1>
+            <div class="container">
+            <form id="contactForm" action="mailto:iva.zheleva@student.hogent.be"> 
+                
+                <label for="fname">First Name</label><span class="req">*</span>
+                <input required type="text" id="fname" name="fname" placeholder="Your first name" required></input>
+
+                <label for="lname">Last Name</label><span class="req">*</span>
+                <input type="text" id="lname" name="lname" placeholder="Your last name" required></input>
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="belgium">Belgium</option>
+                <option value="canada">Canada</option>
+                <option value="bulgaria">Bulgaria</option>
+                </select>
+
+                <label for="email">Email</label><span class="req">*</span>
+                <input type="email" name="email", placeholder="your@email" required pattern="\S+.*">
+
+                <label for="subject">Your comment</label>
+                <textarea id="comment" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <label for="where_you_heard">Where did you hear about us</label><br>
+                <input type="radio" id="Google" name="where_you_heard" value="Google">
+                <label class="radio-label" for="Google">Google</label><br>
+
+                <input type="radio" id="Friend" name="where_you_heard" value="Friend">
+                <label class="radio-label" for="Friend">From a friend</label><br>
+
+                <input type="radio" name="where_you_heard" id="else">
+                <label class="radio-label" for="else">Somewhere else</label>
+                <div class="hidden-field">
+                    <input type="text" id="what_else" name="what_else" required>
+                </div><br>
+                <a class="button" id="previewBtn">Preview</a>
+                <input type="reset" value="Reset">            
+            </form>
+            <div id="contactModal" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>   
+                  <div id="formContent"></div>               
+                  <a class="button" id="submitBtn" action="mailto:iva.zheleva@student.hogent.be">Submit</a>
+                </div>          
+            </div>    
+        </div>  
+      </div>
+
+        <footer class="footer background grid">
+            <h3>Author: Iva Zheleva</h3>
+            <p><a href="mailto:iva.zheleva@student.hogent.be">iva.zheleva@student.hogent.be</a></p>
+        </footer>
+        <script src="scripts/myWebsite.Contact.js"></script>
+    </body>
+</html>

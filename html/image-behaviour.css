@@ -1,0 +1,44 @@
+.image {
+    display: block;
+    justify-content: left;
+    height: auto;
+    max-width: 300px;
+    width:100%;
+}
+
+.image-center {
+    display: block;
+    justify-content: left;
+    height: auto;
+    
+    width:100%;
+}
+
+.backgroundImg {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    object-fit: cover;
+    filter: opacity(20%) grayscale(100%);
+}
+
+.welcome-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.text-background {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}

@@ -1,0 +1,399 @@
+<html>
+    <head>
+        <title> This is my first website.</title>
+        <script type="text/javascript" charset="utf-8" src="scripts/myWebsite.Home.js"></script>
+        <link rel="stylesheet" href="styles.css">    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    </head>
+    <body>
+        <nav class="navbar background grid" id="navbar">
+            <div class="logo">
+                <a href="./Home.html"><img src="./images/tplogo.png"></a>
+            </div>
+            
+            <label for="hamburger">&#9776</label>
+            <input type="checkbox" id="hamburger"/>
+            <ul class="nav-list" id="nav-list">                
+                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./Discworld.html">Discworld</a></li>
+                <li><a href="./Books.html">Books</a></li>
+                <li><a href="./Artists.html">Artists</a></li>
+                <li><a href="./Contact.html">Contact</a></li>
+            </ul>            
+        </nav>
+		<div>
+            <p>Try to make the navbar octarine!</p>
+            <input type="range" id="sliderRed" class="slider" value="50" min="0" max="255" />
+	        <input type="range" id="sliderGreen" class="slider" value="50" min="0" max="255" />
+	        <input type="range" id="sliderBlue" class="slider" value="50" min="0" max="255" />
+        </div>
+		
+        <div class="terry-about grid">
+              <img class="backgroundImg" src="./images/4f553049-2780-42c6-8e80-5b0328e54f24.png"></img>
+            <div class="picture">  
+                <a href="https://terrypratchett.com/terry-pratchett/">             
+                <img class="image" src="./images/4sk5otm6yfs91.jpg"></img></a>                 
+            </div>
+            <div class="article">                
+                <h1 class="text-big" id="web">					
+                    Who is the man with the rubber ducky?                 
+				</h1>
+                <p>
+                    "What duck?"                    
+                </p>
+                <p>Terry Pratchett is the author of the famous<sup><a href="#footnotes">1</a></sup>  Discworld series of wooping 41<sup><a href="#footnotes">2</a></sup> books.</p>
+                <p>Terence David John Pratchett was born to David and Eileen Pratchett on the 28th April 1948, at Minellan Nursing Home in Beaconsfield, Buckinghamshire. He grew up to become the UK’s best-selling author of the 1990’s and is known globally as the creator of the Discworld fantasy novels, a series numbering 40 volumes. His 2011 Discworld novel ‘Snuff’ was at the time of its release the third-fastest-selling hardback adult-audience novel since records began in the UK, selling 55,000 copies in the first three days. He was also a famous campaigner for Alzheimer’s research and for the human right to choose a ‘good death’.</p>
+                <a href="https://terrypratchett.com/terry-pratchett/" class="button">Read more</a>
+                <div class="footnotes" id="footnotes">                    
+                    <hr>
+                    <p><sup>1</sup>But not famous enough.</p>
+                    <p><sup>2</sup>Not enough in numbers.</p>
+                </div>
+            </div>
+        </div>
+        <div class="intro grid">
+            <div class="article inverted"> 
+                <h1>What is Discworld?</h1>
+                <p>Explaining Discworld without sounding like a madman is nigh impossible - much like explaining Doctor who - so I won't even try. Below you can find the explanation as given on terrypratchett.com.</p>
+                <a href="https://terrypratchett.com/book-categories/discworld/"><p>The Discworld is the fictional setting of Terry Pratchett’s most iconic series. All the Discworld novels take place on a flat, circular world which sits on the back of four elephants, which stand on the back of a giant star turtle. Although this world may look and sound completely different to our own, the Discworld novels explore a multitude of very human issues.</p>
+                </a>
+                <a href="./Discworld.html" class="button">Read more</a>
+                <hr> 
+            </div>
+            <div class="picture inverted ">                                            
+                <img class="image on-its-head" src="./images/discworld.png"></img></a>                 
+            </div>
+        </div>
+
+        <div class="books grid">
+            <div class="table">
+                <h1><a href="./Books.html">Books</a></h1> <a class="button" id="pagesBtn" >Click me!</a>
+                <details>
+                    <summary>Click here to view a list of Discworld books
+                        <div id="pages-table-container"></div>                        
+                    </summary>
+                    <br>
+                    <table>
+                        <tr>
+                            <th>Title</th>
+                            <th>Year</th>
+                            <th>Series</th>
+                        </tr>
+                        <tr>
+                            <td>The Colour of Magic</td>
+                            <td>1983</td>
+                            <td>Rincewind</td>
+                        </tr>
+                        <tr>
+                            <td>The Light Fantastic</td>
+                            <td>1986</td>
+                            <td>Rincewind</td>
+                        </tr>
+                        <tr>
+                            <td>Equal Rites</td>
+                            <td>1987</td>
+                            <td>Witches</td>
+                        </tr>
+                        <tr>
+                            <td>Mort</td>
+                            <td>1987</td>
+                            <td>Death</td>
+                        </tr>
+                        <tr>
+                            <td>Sourcery</td>
+                            <td>1988</td>
+                            <td>Rincewind</td>
+                        </tr>
+                        <tr>
+                            <td>Wyrd Sisters</td>
+                            <td>1988</td>
+                            <td>Witches</td>
+                        </tr>
+                        <tr>
+                            <td>Pyramids</td>
+                            <td>1989</td>
+                            <td>Standalone</td>
+                        </tr>
+                        <tr>
+                            <td>Guards! Guards!</td>
+                            <td>1989</td>
+                            <td>City Watch</td>
+                        </tr>
+                        <tr>
+                            <td>Eric</td>
+                            <td>1990</td>
+                            <td>Rincewind</td>
+                        </tr>
+                        <tr>
+                            <td>Moving Pictures</td>
+                            <td>1990</td>
+                            <td>Industrial Revolution</td>
+                        </tr>
+                        <tr>
+                            <td>Reaper man</td>
+                            <td>1991</td>
+                            <td>Death</td>
+                        </tr>
+                        <tr>
+                            <td>Witches Abroad</td>
+                            <td>1991</td>
+                            <td>Witches</td>
+                        </tr>
+                        <tr>
+                            <td>Small Gods</td>
+                            <td>1992</td>
+                            <td>Standalone</td>
+                        </tr>
+                        <tr>
+                            <td>Lords and Ladies</td>
+                            <td>1992</td>
+                            <td>Witches</td>
+                        </tr>
+                        <tr>
+                            <td>Men at Arms</td>
+                            <td>1993</td>
+                            <td>City Watch</td>
+                        </tr>
+                        <tr>
+                            <td>Soul Music</td>
+                            <td>1994</td>
+                            <td>Death</td>
+                        </tr>
+                        <tr>
+                            <td>Interesting Times</td>
+                            <td>1994</td>
+                            <td>Rincewind</td>
+                        </tr>
+                        <tr>
+                            <td>Masquerade</td>
+                            <td>1995</td>
+                            <td>Witches</td>
+                        </tr>
+                        <tr>
+                            <td>Feet of Clay</td>
+                            <td>1996</td>
+                            <td>City Watch</td>
+                        </tr>
+                        <tr>
+                            <td>Hogfather</td>
+                            <td>1996</td>
+                            <td>Death</td>
+                        </tr>
+                        <tr>
+                            <td>Jingo</td>
+                            <td>1997</td>
+                            <td>City Watch</td>
+                        </tr>
+                        <tr>
+                            <td>The Last Continent</td>
+                            <td>1998</td>
+                            <td>Rincewind</td>
+                        </tr>
+                        <tr>
+                            <td>Carpe Jugulum</td>
+                            <td>1998</td>
+                            <td>Witches</td>
+                        </tr>
+                        <tr>
+                            <td>The Fifth Elephant</td>
+                            <td>1999</td>
+                            <td>City Watch</td>
+                        </tr>
+                        <tr>
+                            <td>The Truth</td>
+                            <td>2000</td>
+                            <td>Industrial Revolution</td>
+                        </tr>
+                        <tr>
+                            <td>Thief of Time</td>
+                            <td>2001</td>
+                            <td>Death</td>
+                        </tr>
+                        <tr>
+                            <td>The Last Hero</td>
+                            <td>2001</td>
+                            <td>Rincewind</td>
+                        </tr>
+                        <tr>
+                            <td>The Amazing Maurice and His Educated Rodents</td>
+                            <td>2001</td>
+                            <td>Standalone</td>
+                        </tr>
+                        <tr>
+                            <td>Nigth Watch</td>
+                            <td>2002</td>
+                            <td>City Watch</td>
+                        </tr>
+                        <tr>
+                            <td>The Wee Free Men</td>
+                            <td>2003</td>
+                            <td>Tiffany Aching</td>
+                        </tr>
+                        <tr>
+                            <td>Monstrous Regiment</td>
+                            <td>2003</td>
+                            <td>Industrial Revolution</td>
+                        </tr>
+                        <tr>
+                            <td>A Hat Full of Sky</td>
+                            <td>2004</td>
+                            <td>Tiffany Aching</td>
+                        </tr>
+                        <tr>
+                            <td>Going Postal</td>
+                            <td>2004</td>
+                            <td>Industrial Revolution</td>
+                        </tr>
+                        <tr>
+                            <td>Thud!</td>
+                            <td>2005</td>
+                            <td>City Watch</td>
+                        </tr>
+                        <tr>
+                            <td>Wintersmith</td>
+                            <td>2006</td>
+                            <td>Tiffany Aching</td>
+                        </tr>
+                        <tr>
+                            <td>Making Money</td>
+                            <td>2007</td>
+                            <td>Industrial Revolution</td>
+                        </tr>
+                        <tr>
+                            <td>Unseen Academicals</td>
+                            <td>2009</td>
+                            <td>Industrial Revolution</td>
+                        </tr>
+                        <tr>
+                            <td>I Shall Wear Midnight</td>
+                            <td>2010</td>
+                            <td>Tiffany Aching</td>
+                        </tr>
+                        <tr>
+                            <td>Snuff</td>
+                            <td>2011</td>
+                            <td>City Watch</td>
+                        </tr>
+                        <tr>
+                            <td>Raising Steam</td>
+                            <td>2013</td>
+                            <td>Industrial Revolution</td>
+                        </tr>
+                        <tr>
+                            <td>The Shepherd's Crown</td>
+                            <td>2015</td>
+                            <td>Tiffany Aching</td>
+                        </tr>
+                    </table>
+                </details>
+                <details>
+                    <summary>Click here to view a list of other books</summary>
+                    <br>
+                    <table>
+                        <tr>
+                            <th>Title</th>
+                            <th>Year</th>
+                            <th>Series</th>
+                        </tr>
+                        <tr>
+                            <td>The Carpet People</td>
+                            <td>1971</td>
+                            <td>Carpet People</td>
+                        </tr>
+                        <tr>
+                            <td>The Dark Side of the Sun</td>
+                            <td>1976</td>
+                            <td>Discworld before it was Discworld</td>
+                        </tr>
+                        <tr>
+                            <td>Strata</td>
+                            <td>1981</td>
+                            <td>Discworld before it was Discworld</td>
+                        </tr>
+                        <tr>
+                            <td>Truckers</td>
+                            <td>1989</td>
+                            <td>Bromeliad</td>
+                        </tr>
+                        <tr>
+                            <td>The Unadulterated Cat</td>
+                            <td>1989</td>
+                            <td>Cats (because why not)</td>
+                        </tr>
+                        <tr>
+                            <td>Good Omens</td>
+                            <td>1990</td>
+                            <td>Good Omens</td>
+                        </tr>
+                        <tr>
+                            <td>Diggers</td>
+                            <td>1990</td>
+                            <td>Bromeliad</td>
+                        </tr>
+                        <tr>
+                            <td>Wings</td>
+                            <td>1990</td>
+                            <td>Bromeliad</td>
+                        </tr>
+                        <tr>
+                            <td>Only You Can Save Mankind</td>
+                            <td>1992</td>
+                            <td>Johnny</td>
+                        </tr>
+                        <tr>
+                            <td>Johnny and the Dead</td>
+                            <td>1993</td>
+                            <td>Johnny</td>
+                        </tr>
+                        <tr>
+                            <td>Johnny and the Bomb</td>
+                            <td>1996</td>
+                            <td>Johnny</td>
+                        </tr>
+                        <tr>
+                            <td>Nation</td>
+                            <td>2008</td>
+                            <td>Nation</td>
+                        </tr>
+                        <tr>
+                            <td>Dodger</td>
+                            <td>2012</td>
+                            <td>Dodger</td>
+                        </tr>
+                        <tr>
+                            <td>The Long Earth</td>
+                            <td>2012</td>
+                            <td>The Long Earth</td>
+                        </tr>
+                        <tr>
+                            <td>The Long War</td>
+                            <td>2013</td>
+                            <td>The Long Earth</td>
+                        </tr>
+                        <tr>
+                            <td>The Long Mars</td>
+                            <td>2014</td>
+                            <td>The Long Earth</td>
+                        </tr>
+                        <tr>
+                            <td>The Long Utopia</td>
+                            <td>2015</td>
+                            <td>The Long Earth</td>
+                        </tr>
+                        <tr>
+                            <td>The Long Cosmos</td>
+                            <td>2016</td>
+                            <td>The Long Earth</td>
+                        </tr>                            
+                    </table>
+                </details>
+            </div>
+               
+        </div>
+		
+        <footer class="footer background grid">
+            <h3>Author: Iva Zheleva</h3>
+            <p><a href="mailto:iva.zheleva@student.hogent.be">iva.zheleva@student.hogent.be</a></p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title> This is my first website.</title>
+            <link rel="stylesheet" href="styles.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav class="navbar background grid" id="navbar">
+            <div class="logo">
+                <a href="./Home.html"><img src="./images/tplogo.png"></a>
+            </div>
+            
+            <label for="hamburger">&#9776</label>
+            <input type="checkbox" id="hamburger"/>
+            <ul class="nav-list" id="nav-list">                
+                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./Discworld.html">Discworld</a></li>
+                <li><a href="./Books.html">Books</a></li>
+                <li><a href="./Artists.html">Artists</a></li>
+                <li><a href="./Contact.html">Contact</a></li>
+            </ul>            
+        </nav>
+        <div id="buttonsDiv">
+            <div id="readingOrderDiv">
+                <p id="readingOrder">Because reading order only matters if you can afford to have the books in the right order...</p>
+                <a class="button" id="shuffleBtn" >Shuffle books!</a>
+            </div>
+        </div>
+        <div id="addBookModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+            </div>          
+        </div>        
+        <div id="booksGrid" class="books books-grid">            
+            <div class="book">
+                <img class="book-cover" src="./images/colour-of-magic.png"></img>
+                <h3 class="title">The Colour of Magic</h3>
+                <a href="https://terrypratchett.com/books/the-colour-of-magic/" class="button">Read more</a>
+            </div>
+
+            <div class="book">
+                <img class="book-cover" src="./images/light-fantastic.png"></img>
+                <h3 class="title">The Light Fantastic</h3>
+                <a href="https://terrypratchett.com/books/the-light-fantastic/" class="button">Read more</a>
+            </div>
+
+            <div class="book">
+                <img class="book-cover" src="./images/equal-rites.png"></img>
+                <h3 class="title">Equal Rites</h3>
+                <a href="https://terrypratchett.com/books/equal-rites/" class="button">Read more</a>
+            </div>
+
+            <div class="book">
+                <img class="book-cover" src="./images/mort.png"></img>
+                <h3 class="title">Mort</h3>
+                <a href="https://terrypratchett.com/books/mort/" class="button">Read more</a>
+            </div>
+
+            <div class="book">
+                <img class="book-cover" src="./images/sourcery.png"></img>
+                <h3 class="title">Sourcery</h3>
+                <a href="https://terrypratchett.com/books/sourcery/" class="button">Read more</a>
+            </div>
+
+            <div class="book">
+                <img class="book-cover" src="./images/wyrd-sisters.png"></img>
+                <h3 class="title">Wyrd Sisters</h3>
+                <a href="https://terrypratchett.com/books/wyrd-sisters/" class="button">Read more</a>
+            </div>
+
+            <div class="book">
+                <img class="book-cover" src="./images/pyramids.png"></img>
+                <h3 class="title">Pyramids</h3>
+                <a href="https://terrypratchett.com/books/pyramids/" class="button">Read more</a>
+            </div>
+
+            <div class="book">
+                <img class="book-cover" src="./images/guards-guards.png"></img>
+                <h3 class="title">Guards! Guards!</h3>
+                <a href="https://terrypratchett.com/books/guards-guards/" class="button">Read more</a>
+            </div>
+            
+        </div>
+        <script src="scripts/myWebsite.Books.js"></script>
+    </body>
+</html>

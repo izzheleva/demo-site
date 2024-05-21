@@ -1,0 +1,85 @@
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+
+  }  
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;    
+    height: 100%;
+    width: 100%;
+  }
+  .carousel-container {
+    overflow: hidden;
+    justify-content: center;
+    justify-self:center;
+    align-items: center;
+  }
+  .carousel-container .imgDiv{
+    text-align: center;
+    margin-bottom: 10px;
+    height: 75%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .nav-arrow {
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+    cursor: pointer; 
+}
+
+.prev-arrow {
+  left: 0; 
+}
+
+.next-arrow {
+  right: 0;
+}
+
+.imgDiv img .large-image{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  display:block;
+  grid-column: 2;
+}
+
+.carousel-container img {
+    max-height: 90%;
+    width: auto;
+}
+
+.carousel-container .thumbnail-container{    
+    width: auto;
+    overflow-x: auto;
+    height: 25%;
+}
+
+.thumbnail-container .thumbnail {
+  margin:  0px 5px 5px 0px;
+  height: 100%;
+}
+  .music-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+  }
+
+  .music-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;    
+    height: 100%;
+    width: 100%;
+  }
+
+  
